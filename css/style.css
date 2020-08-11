@@ -579,7 +579,7 @@ img {
 
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	border-radius: 4px;
-	margin-right: 12px;
+	/* margin-right: 12px; */
 }
 
 .button-icon {
