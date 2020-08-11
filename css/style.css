@@ -479,6 +479,12 @@ img {
 	background: #2f303a;
 }
 
+.flex-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
 .logo-footer {
 	display: inline-block;
 	margin-bottom: 20px;
@@ -526,6 +532,7 @@ img {
 	text-transform: uppercase;
 }
 
+/* Socials */
 .box-socials {
 	width: 206px;
 }
@@ -560,6 +567,19 @@ img {
 	width: 20px;
 	height: 20px;
 	--color4: #ffffff;
+}
+
+/* Form */
+.form-footer {
+	display: inline-block;
+	width: 358px;
+	padding: 15px 16px;
+
+	background-color: transparent;
+
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border-radius: 4px;
+	margin-right: 12px;
 }
 
 .button-icon {

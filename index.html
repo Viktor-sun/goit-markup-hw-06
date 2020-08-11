@@ -457,7 +457,7 @@
 
 		<!-- Футер -->
 		<footer class="footer">
-			<div class="container flex-container flex-b">
+			<div class="container flex-footer">
 				<div>
 					<a href="./" class="logo logo-footer" lang="en">
 						<span class="logo-excerpt">Web</span>
@@ -504,15 +504,19 @@
 					</ul>
 				</div>
 
-				<div>
-					<b class="caption">Подпишитесь на рассылку</b>
-					<button type="button" class="button">
-						Подписаться
-						<svg class="button-icon">
-							<use href="./images/sprite.svg#icon-send"></use>
-						</svg>
-					</button>
-				</div>
+				<form>
+					<label class="caption" for="subscription">Подпишитесь на рассылку</label>
+					<div>
+						<input class="form-footer" type="mail" id="subscription" name="subscription" placeholder="E-mail" />
+
+						<button type="submit" class="button">
+							Подписаться
+							<svg class="button-icon">
+								<use href="./images/sprite.svg#icon-send"></use>
+							</svg>
+						</button>
+					</div>
+				</form>
 			</div>
 		</footer>
 
