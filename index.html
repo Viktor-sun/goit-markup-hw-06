@@ -521,7 +521,7 @@
 		</footer>
 
 		<!-- Modal -->
-		<div class="backdrop" data-modal>
+		<div class="backdrop is-hidden" data-modal>
 			<div class="modal">
 				<b class="modal-caption">Оставьте свои данные, мы вам перезвоним</b>
 				<button class="button-modal-close" type="button" data-modal-close>
@@ -530,7 +530,7 @@
 					</svg>
 				</button>
 
-				<form class="form-modal is-hidden">
+				<form class="form-modal">
 					<label>
 						<span>Имя</span>
 						<input type="text" name="name" />
@@ -561,7 +561,8 @@
 					</label>
 
 					<label class="terms-field">
-						<input type="checkbox" class="checkbox" name="terms" />
+						<input type="checkbox" class="checkbox visually-hidden" name="terms" />
+						<span class="checkbox-icon"></span>
 						<span class="checkbox-label">
 							Соглашаюсь с рассылкой и принимаю
 							<a href="" class="link">Условия договора</a>
